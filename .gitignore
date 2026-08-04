@@ -1,0 +1,45 @@
+# Build outputs & artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+build/
+**/build/
+app/build/
+
+# Gradle & Kotlin
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Machine-specific configuration
+local.properties
+keystore.properties
+
+# Build script
+build.bat
+
+# IDE & Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Downloaded tools
+build-tools/
+**/build-tools/

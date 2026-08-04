@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NavHide</string>
+    <string name="accessibility_service_description">Draws an overlay on top of the navigation bar to hide it system-wide.</string>
+</resources>
