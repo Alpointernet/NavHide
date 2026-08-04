@@ -7,6 +7,8 @@ NavHide is a lightweight app for hiding the navigation bar on Samsung One UI dev
 - Android 10 or later
 - [Shizuku](https://github.com/rikkaapps/shizuku) installed and running
 
+- Alternatively, just ADB
+
 ## How It Works
 
 NavHide uses Shizuku to execute system status bar commands. You can also run these commands with ADB instead of installing the app:
