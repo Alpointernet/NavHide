@@ -1,6 +1,6 @@
 # NavHide
 
-NavHide is a lightweight app for hiding the navigation bar on Samsung One UI devices using Shizuku.
+NavHide is a lightweight app for disabling the navigation bar trigger area using Shizuku.
 
 ## Requirements
 
@@ -25,16 +25,19 @@ adb shell cmd statusbar send-disable-flag none
 adb shell cmd statusbar disable-for-setup false
 ```
 
+## Important
+
+- You need to enable swipe gestures before hiding the navigation bar, otherwise it won't work
+
 ## Issues
 
 - The navigation bar will reappear after a device restart
-- Doesn't work well with 3 button navigation, switch to swipe gestures first
 - Empty navigation area in apps persist if you have gesture hint enabled
 
 ## Tested On
 
-- Samsung Galaxy A54 (Android 16)
-- I'm not sure if it will work with older One UI or other Android.
+- One UI 8.5
+- LineageOS 21
 
 ## License
 
