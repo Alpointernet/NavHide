@@ -27,6 +27,11 @@ cmd statusbar disable-for-setup false
 
 - The navigation bar will reappear after a device restart
 
+## Tested On
+
+- Samsung Galaxy A54 (Android 16)
+- I'm not sure if it will work with older One UI or other Android.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
