@@ -1,6 +1,6 @@
 # NavHide
 
-NavHide is a lightweight utility for hiding the navigation bar on Samsung One UI devices using [Shizuku](https://github.com/rikkaapps/shizuku).
+NavHide is a lightweight app for hiding the navigation bar on Samsung One UI devices using [Shizuku](https://github.com/rikkaapps/shizuku).
 
 ## Requirements
 
