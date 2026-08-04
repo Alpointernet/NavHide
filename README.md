@@ -27,7 +27,7 @@ adb shell cmd statusbar disable-for-setup false
 
 ## Important
 
-- You need to enable swipe gestures before hiding the navigation bar, otherwise it won't work
+- You need to enable swipe gestures before disabling the navigation bar, otherwise it won't work
 
 ## Issues
 
