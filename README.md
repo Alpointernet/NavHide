@@ -9,18 +9,18 @@ NavHide is a lightweight app for hiding the navigation bar on Samsung One UI dev
 
 ## How It Works
 
-NavHide uses Shizuku to execute system status bar commands:
+NavHide uses Shizuku to execute system status bar commands. You can also run these commands with ADB:
 
 ### Hide Navigation Bar
 ```bash
-cmd statusbar disable-for-setup true
-cmd statusbar send-disable-flag home recents
+adb shell cmd statusbar disable-for-setup true
+adb shell cmd statusbar send-disable-flag home recents
 ```
 
 ### Show Navigation Bar
 ```bash
-cmd statusbar send-disable-flag none
-cmd statusbar disable-for-setup false
+adb shell cmd statusbar send-disable-flag none
+adb shell cmd statusbar disable-for-setup false
 ```
 
 ## Issues
