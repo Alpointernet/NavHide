@@ -28,7 +28,8 @@ adb shell cmd statusbar disable-for-setup false
 ## Issues
 
 - The navigation bar will reappear after a device restart
-- Doesn't work with 3 button navigation, switch to swipe gestures first
+- Doesn't work well with 3 button navigation, switch to swipe gestures first
+- Empty navigation area in apps persist if you have gesture hint enabled
 
 ## Tested On
 
