@@ -14,4 +14,3 @@ NavHide is a lightweight utility for hiding the navigation bar on Samsung One UI
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
